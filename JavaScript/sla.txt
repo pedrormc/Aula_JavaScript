@@ -1,0 +1,4 @@
+/*window.alert('olá dnv mundo caralhoo')
+window.confirm('tá da hora o bgl?')
+window.prompt('sexo?')
+*/
