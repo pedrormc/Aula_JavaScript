@@ -5,7 +5,18 @@
     
 }
 
+.title{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .calculadora{
+    display:grid;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     
