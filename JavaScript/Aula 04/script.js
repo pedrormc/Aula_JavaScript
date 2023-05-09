@@ -3,9 +3,8 @@ function carregar(){
       msg.innerHTML = 'tomi'
 
       var img = window.document.querySelector('#img')
-      img.src = "img/img01.png"
+      img.src = "img/img03.png"
 
 
 
 } 
-
