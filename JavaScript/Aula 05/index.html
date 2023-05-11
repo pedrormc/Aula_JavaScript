@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Aula 05</title>
+    
+</head>
+<body id="body" onload="carregar()" >
+    <header>
+        <h1>Robertin™</h1>
+    </header>
+    <section>
+        <div id="msg">Agora são XPTO horas</div>
+        <div id="foto">
+            <img id="img" src="" alt="Foto 01">
+        </div>
+    </section>
+    <footer>
+        <span><i> Robertin™</i></span>
+    </footer>
+
+    <uli id="botoes">
+        <button class="btn" id="btn01" onmouseenter ="predict01()" onclick="muda01()">
+           <strong>BOTÃO 01</strong>
+        </button>
+
+        <button class="btn" id="btn02" onmouseenter ="predict02()" onclick="muda02()">
+           <strong>BOTÃO 02</strong>
+        </button>
+
+        <button class="btn" id="btn03" onmouseenter ="predict03()" onclick="muda03()">
+           <strong>BOTÃO 03</strong>
+        </button>
+    </uli>
+
+
+    <uli id="botoes">
+        <button class="btn" id="btn01" onclick="fundo01()">
+           <strong>VERMELHO</strong>
+        </button>
+
+        <button class="btn" id="btn02" onclick="fundo02()">
+           <strong>AZUL</strong>
+        </button>
+
+        <button class="btn" id="btn03" onclick="fundo03()">
+           <strong>VERDE</strong>
+        </button>
+    </uli>
+    
+<script src="script.js"></script>
+</body>
+</html>
