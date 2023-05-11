@@ -64,3 +64,8 @@ uli{
 #botoes{
     justify-content: center;
 }
+
+#return{
+    width: 20px;
+    height: 40px;
+}
