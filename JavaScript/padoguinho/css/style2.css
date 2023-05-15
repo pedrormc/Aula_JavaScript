@@ -28,6 +28,8 @@ body{
     
   }
 
+
+
   nav{
     list-style-type:none;
     margin: 0;
@@ -60,22 +62,18 @@ body{
   
 
   li a:hover {
-    background-color: #111;
-   
-   color: #E0EEEE;
+   background-color: #6e3d00;
+    color: #000000;
+    border-bottom: solid 5px #000000;
 
   }
 
   
   #divBusca{
-    background-color:#E0EEEE;
-    border:solid 2px #000000;
-    border-radius:10px;
-    width:500px; /* diferença de 67*/
-    height:32px;
+   
     position: absolute;
     z-index: 1;
-    left: 35%;
+    left: 500px;
     top: 50px;
   }
   
@@ -104,9 +102,8 @@ body{
     }
     #bntBusca a:hover {
       background-color: #111;
-    
-     color: #E0EEEE;
-  
+      color: #E0EEEE;
+      border-bottom: #ff8c00;
     }
   
 
