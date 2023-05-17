@@ -1,3 +1,4 @@
+//02
 var   nome  = prompt("Digite seu nome")
 var salario = Number(prompt("Digite seu salário atual"))
 

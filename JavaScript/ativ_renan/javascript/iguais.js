@@ -1,3 +1,4 @@
+//03
 var n1  = parseInt(prompt("Digite um número"))
 var n2 = parseInt(prompt("Digite oto número"))
 var c
