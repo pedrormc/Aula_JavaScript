@@ -36,7 +36,7 @@ body {background-color: #C7DDFA;
 
 
 
-  formulario{
+  .formulario{
     width: 400px;
     padding: 30px;
     border:1px #A7C9F8;
@@ -96,8 +96,9 @@ input[type=submit]{
 
 #linhas{
   position:absolute;
-  z-index: 1
-  top
+  z-index: 1;
+  right: 20px;
+  width: 50px;
 
 
 }
