@@ -10,8 +10,8 @@ nav{
   padding: 0;
 }
 
-body {background-color: #C7DDFA;
-  background-repeat:repeat;
+body {background-color: #c46bff;
+  
   background-size: cover;
   }
 
@@ -24,11 +24,15 @@ body {background-color: #C7DDFA;
     }
 
     section{
+      
       background: rgb(255, 255, 255);
       width: 500px;
       padding: 20px;
+      border: 2px, black;
       border-radius: 25px;
-      margin: auto;
+      margin:100px 35%;
+      
+      
   }
   
   /****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -40,6 +44,7 @@ body {background-color: #C7DDFA;
     width: 400px;
     padding: 30px;
     border:1px #A7C9F8;
+    left: 5 0%;
 }
 .formulario p{
     width: 100%;
@@ -49,7 +54,7 @@ body {background-color: #C7DDFA;
     width: 100%;
     margin: 15px 0;
 }
-.field label, 
+
 .field span{
     padding-left: 10px;
     font-size: 1.1em;
@@ -63,29 +68,33 @@ body {background-color: #C7DDFA;
 input[type=text],
 input[type=email],
 input[type=password],
-textarea{
-    width: 100%;
+
+.textarea{
+  border: 5px rgb(0, 0, 0);
+  background-color: rgb(182, 182, 182);
+  
+    width: 90%;
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 1px rgb(179, 227, 255);
-    outline: none;
+    text-align: center;
+    
 }
 input#nao{
     margin-left: 30px;
 }
 textarea{
-    line-height: 20px;
+    line-height: 40px;
     padding: 10px;
     height: 90px;
-    resize: none;
+   
 }
 input[type=submit]{
     display: block;
     background-color: rgb(179, 227, 255);
     height: 35px;
-    border: none;
+    border: 1px, black;
     outline: 0;
     cursor: pointer;
     width: 100px;
@@ -93,6 +102,18 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
+#cadastrar{
+    background: #5a007e;
+    border-radius: 5px; padding: 14px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    top: 700px;
+    left: 47%;
+  }
 
 #linhas{
   position:absolute;
