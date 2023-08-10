@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+#navup{
+  
+  background-color: #F80032 ;
+  padding-top: 20px ;
+  margin-top: 0px;
+  list-style: none;
+  padding-left: 0px ;
+  padding-right: 0px ;
+  
+ 
+}
+
+#sesianos{
+  margin-left: 160px;
+  border-bottom: #ffffff 5px solid;
+  border-top: #ffffff 5px solid;
+  color: white;
+  padding: 0px;
+  margin-bottom: 20px;
+  
+}
+
+#coiso-login{
+  display:block;
+  margin-left: 750px;
+  margin-top: 50px;
+  color: #666666;
+
+ 
+}
+
+.blocao{
+  background: rgb(134, 134, 134);
+  width: 500px;
+  padding: 20px;
+  border-radius: 25px;
+  margin: auto;
+}
