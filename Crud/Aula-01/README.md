@@ -9,3 +9,10 @@
  gerencia as requisiçoes, rotas e Urls, entre outras funcionalidades
 
  ## npm install expres
+
+ senha root MySQL
+ ## 123456
+
+ verificar MySQL
+ ## mysql h localhost -u root -p
+   senha 123456
