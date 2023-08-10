@@ -14,6 +14,8 @@
  ## 123456
 
  verificar MySQL
- ## mysql h localhost -u root -p
+ ## mysql -h localhost -u root -p
    senha 123456
-   ##
+baixar dependencias pra conexão
+## npm install sequelize sqlite3
+## npm install --save mysql2
