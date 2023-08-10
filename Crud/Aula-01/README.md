@@ -16,3 +16,4 @@
  verificar MySQL
  ## mysql h localhost -u root -p
    senha 123456
+   ##
