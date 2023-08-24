@@ -1,35 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import styled from "styled-components";
+import GlobalStyle from "./styles/Global";
+import Form from "./components/Form.jsx";
+import Grid from "./components/Grid";
+import { useEffect, useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
+
+const Container = styled.div`
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+`;
+const Title = styled.h2``;
+
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [users, setUsers] = useState([]);
+  const [onEdit, setOnEdit] = useState(null);
+
+  const getUsers = async () => {
+    try {
+      const res = await axios.get("http://localhost:8800");
+      setUsers(res.data.sort((a, b) => (a.nome > b.nome ? 1 : -1)));
+    } catch (error) {
+      toast.error(error);
+    }
+  };
+
+  useEffect(() => {
+    getUsers();
+  }, [setUsers]);
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Container>
+      <Title>USUÁRIOS</Title>
+
+      <Form onEdit={onEdit} setOnEdit={setOnEdit} getUsers={getUsers} />
+
+      <Grid setOnEdit={setOnEdit} users={users} setUsers={setUsers} />
+
+      <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
+
+      </Container>
+      <GlobalStyle />
+        
     </>
-  )
+  );
 }
 
-export default App
+export default App;

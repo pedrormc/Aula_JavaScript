@@ -39,7 +39,7 @@ const Button = styled.button`
   height: 42px;
 `;
 
-const Form = ({ getUsers, onEdit, setOnEdit }) => {
+function Form ({ getUsers, onEdit, setOnEdit }){
   const ref = useRef();
 
   useEffect(() => {
@@ -120,6 +120,10 @@ const Form = ({ getUsers, onEdit, setOnEdit }) => {
       <Button type="submit">SALVAR</Button>
     </FormContainer>
   );
-};
+  };
 
-export default Form;
+  export default Form
+
+
+
+
