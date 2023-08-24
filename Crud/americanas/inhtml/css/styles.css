@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+
+
+#navup{
+  
+  background-color: #F80032 ;
+  padding-top: 20px ;
+  margin-top: 0px;
+  list-style: none;
+  padding-left: 0px ;
+  padding-right: 0px ;
+  
+ 
+}
+
+.lia{
+  display: inline;
+  text-decoration: none;
+  margin: 0px 20px 0px 20px;
+  
+
+}
+
+#ola{
+  
+  width: 200px;
+  margin-left: 0px;
+}
+
+#busca{
+  width: 500px;
+}
+
+
+#ulins{
+  
+  margin-right: 300px;
+
+}
+
+#sesianos{
+  margin-left: 300px;
+  border-bottom: #000000 6px solid;
+  border-top: #000000 6px solid;
+
+}
+
+#busc{
+  background: #ffff;
+  color: black;
+}
+
+#login{
+  display: inline;
+}
+
+#aaa{
+  display:flex;
+}
+
+
+
+#cep{
+  margin-left: 300px;
+}
+
+#navmid{
+  display: flex;
+  padding-top: 15px ;
+  
+}
+#navp{
+  list-style-type: none;
+  
+
+}
+
+#navp a:hover{
+  background-color: #a30021;
+  
+  
+
+} 
+.lib{
+  display: inline;
+   padding: 0px 10px 0px 10px; 
+   
+
+}
+.lib a {
+  text-decoration-line: none;
+  color:black ;
+  height: 300px;
+  
+ 
+}
+
+
+#navdown{
+  background-color: #ffff;
+  display: flex;
+  box-shadow: #000000;
+  
+}
+#drop{
+  background-color: #ffff;
+  color: #000000;
+}
+
+#navsec{
+display: flex;
+}
+
+/*a porra do dropdown-------------------------------------------------------------------*/
+
+
+.dropbtn {
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {
+   border-bottom: #F80032 2px solid;
+   color: #F80032;
+  }
+
+/*a porra do dropdown-------------------------------------------------------------------*/
+
+.lic{
+  display: inline;
+  margin: 0px 11px 0px 11px;
+}
+
+.dropdown{
+  margin: 0px;
+}
+  
+#cent{
+  margin-left: 300px;
+  margin-bottom: 10px;
+}
+
+#carro{
+  width: 1259px;
+  margin-left: 300px;
+}
+
+
+/*a porra do dropdown-------------------------------------------------------------------*/
+.dropbtnn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtnn:hover, .dropbtnn:focus {
+  background-color: #ffffff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownn {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownn-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownn-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownn-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/*a porra do dropdown-------------------------------------------------------------------*/
+
+.nump{
+  width: 20px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+#quero{
+  margin-left: 310px;
+  margin-top: 10px;
+}
