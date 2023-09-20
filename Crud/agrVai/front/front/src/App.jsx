@@ -52,7 +52,7 @@ function App() {
 
       <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
 
-      </Container>
+      </Container>x'
       <GlobalStyle />
         
     </>
