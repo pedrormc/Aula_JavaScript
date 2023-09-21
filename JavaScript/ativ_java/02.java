@@ -1,19 +1,19 @@
 public class Ativ02 {
     public static void main(String[] args) {
     
-    int count = 1;
+    int i = 1;
+    int temp = 0;
     
     
-    
-    while( count <= 15){
+    while( i <= 15){
         
-       int result = count + temp;
+       int result = i + temp;
         
         
-        System.out.print("\nA soma de: "+ (count) +" + "+ (temp) +" = "+ (result));
+        System.out.println("A soma de: "+ (i) +" + "+ (temp) +" = "+ (result));
         
-        count++;
-        int temp = result;
+        i++;
+        temp = result;
     }
 
 

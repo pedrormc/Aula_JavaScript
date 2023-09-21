@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HelloWorld {
+public class ativ04 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -8,14 +8,13 @@ public class HelloWorld {
         String nome = scan.nextLine();
 
         System.out.print("Quantas vezes quer seu nome escrito?: ");
+        int vzs = scan.nextInt(); 
 
-        int vzs = Integer.parseInt(scan.nextLine()); 
+        int i = 1; 
 
-        int count = 1; 
-
-        while (count <= vzs) {
-            System.out.print("\n" + nome);
-            count++;
+        while (i <= vzs) {
+            System.out.println( nome);
+            i++;
         }
     }
 }

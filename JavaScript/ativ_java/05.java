@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
-public class HelloWorld {
+public class ativ05 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         int result = 0;
-        int count = 1;
+        int i = 1;
 
-        while (count <= 10) {
+        while (i <= 10) {
             System.out.print("Escreva seu numero: ");
-            String temp = scan.nextLine();
+            int temp = scan.nextInt();
 
-            // Converter a string em um inteiro e somar ao resultado
-            int num = Integer.parseInt(temp);
-            result += num;
             
-            count++;
+            
+            result += temp;
+            
+            i++;
         }
 
         System.out.print("A soma dos numeros e:  " + result);
